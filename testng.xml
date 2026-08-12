@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+	<groups>
+    <run>
+ 	  <include name="Master"/>     <!-- Master group will run all the test cases -->
+	<include name="Sanity"/>   <!-- Sanity group will run only the test cases which are part of Sanity group -->
+  	 <include name="Regression"/>   <!-- Regression group will run only the test cases which are part of Regression group -->
+  	  <include name="DataDriven"/> 
+         
+    </run>
+    </groups> 
+    
+    
+    <listeners>
+        <listener class-name="utilities.ExtendReportManager"/>
+ 	</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="testCases.TC001_AccountRegistrationTest"/>  --> 
+ 		<class name="testCases.TC002_LoginTest"/> --> 
+      <class name="testCases.TC003_LoginDataDrivenTesting"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
