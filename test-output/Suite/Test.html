@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 10 12:36:00 IST 2026</td>
+<td>Started on:</td><td>Tue Aug 18 10:55:10 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>80 seconds (80480 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14688 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Master Sanity Regression DataDriven </td>
 </tr><tr>
@@ -76,17 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_LoginTest</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace73351708", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace73351708'><pre>java.lang.AssertionError: expected [true] but found [false]
+<td title='testCases.TC_005_AddToCartPageTest.verifyAddToCart()'><b>verifyAddToCart</b><br>Test class: testCases.TC_005_AddToCartPageTest</td>
+<td><div><pre>java.lang.AssertionError: Success message not displayed after adding product to cart expected [true] but found [false]
+	at testCases.TC_005_AddToCartPageTest.verifyAddToCart(TC_005_AddToCartPageTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1155437763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1155437763'><pre>java.lang.AssertionError: Success message not displayed after adding product to cart expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:32)
+	at testCases.TC_005_AddToCartPageTest.verifyAddToCart(TC_005_AddToCartPageTest.java:46)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -97,7 +96,7 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -114,47 +113,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>12</td>
-<td>testCases.TC002_LoginTest@6c4980d3</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC001_AccountRegistrationTest.verifyAccountRegistration()'><b>verifyAccountRegistration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC001_AccountRegistrationTest@39ac0c0a</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDataDrivenTesting.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDataDrivenTesting<br>Parameters: ravikumar@gmail.com, ravi, invalid</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC003_LoginDataDrivenTesting@327bcebd</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDataDrivenTesting.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDataDrivenTesting<br>Parameters: guptaram, ramkumar, invalid</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC003_LoginDataDrivenTesting@327bcebd</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDataDrivenTesting.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDataDrivenTesting<br>Parameters: gauravshakya55@gmail.com, Gaurav@123, valid</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC003_LoginDataDrivenTesting@327bcebd</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDataDrivenTesting.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDataDrivenTesting<br>Parameters: lakshmi@yahoo.com, laxmi, invalid</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC003_LoginDataDrivenTesting@327bcebd</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDataDrivenTesting.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC003_LoginDataDrivenTesting<br>Parameters: abc0505@gmail.com, Abc@123, valid</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC003_LoginDataDrivenTesting@327bcebd</td></tr>
+<td>8</td>
+<td>testCases.TC_005_AddToCartPageTest@407a7f2a</td></tr>
 </table><p>
 </body>
 </html>

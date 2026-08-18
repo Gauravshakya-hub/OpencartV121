@@ -45,7 +45,7 @@ public Properties p;
 	@AfterClass(groups= {"Sanity", "Regression", "Master"}, alwaysRun = true)
 	public void tearDown() {
 		System.out.println("This is tearDown method");
-		 driver.quit();
+		 //driver.quit();
 	}
 	
 	 // Random Alphabetic String (e.g., AbCdEf)
